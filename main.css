@@ -1,0 +1,35 @@
+/*Pseudo Classes*/
+
+:root {
+    color: rgb(253, 253, 253);
+}
+
+div {
+    width: 300px;
+    border: solid rgb(98, 36, 36);
+    padding: 50px;
+    margin: 20px;
+  }
+
+:hover {
+    font-size: bold;
+}
+
+a:active{
+}
+
+/* visited link */
+a:visited {
+    color: rgb(8, 45, 253);
+  }
+
+ body{ 
+    background-image: url(Code\ Background\ 01_preview1.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  selector::pseudo-element {
+    property: value;
+  }
+ 
